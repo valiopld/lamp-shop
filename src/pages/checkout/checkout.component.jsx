@@ -5,7 +5,7 @@ import { createStructuredSelector } from "reselect";
 import { selectCartItems } from "../../redux/cart/cart.selector";
 import { selectCartTotal } from "../../redux/cart/cart.selector";
 
-import { CheckoutItem } from "../../components/checkout-item/checkout-item.component";
+import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 
 const CheckoutPage = ({ cartItems, total }) => {
   const headerEls = ["Product", "Description", "Quantity", "Price", "Remove"];
