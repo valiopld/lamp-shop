@@ -11,11 +11,13 @@ import ShopPage from "../pages/shop-page/shop-page.component";
 import CheckoutPage from "../pages/checkout/checkout.component";
 import { SignInUp } from "../pages/sign-in-up/sign-in-up.component";
 import Header from "./header/header.component";
+
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
     const { setCurrentUser } = this.props;
+
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
       if (userAuth) {
         const userRef = await createUserProfileDocument(userAuth);
