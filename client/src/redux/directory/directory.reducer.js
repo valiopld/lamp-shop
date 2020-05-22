@@ -1,11 +1,11 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: "Bulb lamps",
+      title: "Bulbs Light",
       imageUrl:
         "https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/F3/9F/aba06f4e-ca1c-47a6-8066-8671ec0e60bb.jpg",
       id: 1,
-      linkUrl: "shop/bulb",
+      linkUrl: "shop/bulbs",
     },
     {
       title: "LED lights",
@@ -15,14 +15,14 @@ const INITIAL_STATE = {
       linkUrl: "shop/led",
     },
     {
-      title: "Wooden lamp",
+      title: "Wooden lights",
       imageUrl:
         "https://www.adelexpress.com/wp-content/uploads/2019/04/Modern-Lamps-Pendant-Lights-Wood-Lamp-Restaurant-Bar-Coffee-Dining-Room-LED-Hanging-Light-Fixture-Wooden-300x300.jpg",
       id: 3,
       linkUrl: "shop/wooden",
     },
     {
-      title: "HOMEMADE",
+      title: "HOME MADE",
       imageUrl:
         "https://storage.googleapis.com/thdblog-media/wp-content/uploads/18-FINAL.jpg",
       size: "large",

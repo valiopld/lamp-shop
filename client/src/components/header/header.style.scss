@@ -22,7 +22,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 
     .option {
       padding: 10px 15px;
@@ -32,6 +32,21 @@
       &:hover {
         transform: scale(1.1);
       }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Header {
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 20px;
+    .logo-container {
+      width: 120px;
+    }
+
+    .options {
+      width: 70%;
     }
   }
 }
