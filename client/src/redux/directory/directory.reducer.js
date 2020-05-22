@@ -1,36 +1,41 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: "hats",
-      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+      title: "Bulb lamps",
+      imageUrl:
+        "https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/F3/9F/aba06f4e-ca1c-47a6-8066-8671ec0e60bb.jpg",
       id: 1,
-      linkUrl: "shop/hats",
+      linkUrl: "shop/bulb",
     },
     {
-      title: "jackets",
-      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+      title: "LED lights",
+      imageUrl:
+        "https://images.pexels.com/photos/2255441/pexels-photo-2255441.jpeg",
       id: 2,
-      linkUrl: "shop/jackets",
+      linkUrl: "shop/led",
     },
     {
-      title: "sneakers",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+      title: "Wooden lamp",
+      imageUrl:
+        "https://www.adelexpress.com/wp-content/uploads/2019/04/Modern-Lamps-Pendant-Lights-Wood-Lamp-Restaurant-Bar-Coffee-Dining-Room-LED-Hanging-Light-Fixture-Wooden-300x300.jpg",
       id: 3,
-      linkUrl: "shop/sneakers",
+      linkUrl: "shop/wooden",
     },
     {
-      title: "womens",
-      imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+      title: "HOMEMADE",
+      imageUrl:
+        "https://storage.googleapis.com/thdblog-media/wp-content/uploads/18-FINAL.jpg",
       size: "large",
       id: 4,
-      linkUrl: "shop/womens",
+      linkUrl: "shop/homemade",
     },
     {
-      title: "mens",
-      imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+      title: "designe",
+      imageUrl:
+        "https://cdn.home-designing.com/wp-content/uploads/2018/01/ribbon-light-tall-designer-table-lamp-for-sale-1024x583.jpg",
       size: "large",
       id: 5,
-      linkUrl: "shop/mens",
+      linkUrl: "shop/designe",
     },
   ],
 };

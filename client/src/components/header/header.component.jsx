@@ -9,14 +9,13 @@ import { selectCurrentUser } from "../../redux/user/user.selector";
 
 import { signOutStart } from "../../redux/user/user.action";
 
-import { ReactComponent as Logo } from "../../assets/logoCrown.svg";
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 const Header = ({ currentUser, hidden, signOutStart }) => {
   return (
     <div className="Header">
       <Link className="logo-container" to="/">
-        <Logo className="logo" />
+        <div className="logo" />
       </Link>
       <div className="options">
         <Link className="option" to="/shop">

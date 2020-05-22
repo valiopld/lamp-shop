@@ -8,7 +8,7 @@
 
   .image {
     width: 100%;
-    height: 95%;
+    height: 90%;
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
@@ -30,10 +30,10 @@
     }
   }
   .collection-footer {
-    width: 100%;
-    height: 5%;
+    width: 80%;
+    height: 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 18px;
 
     .name {
