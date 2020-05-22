@@ -49,6 +49,11 @@
     background-color: wheat;
     opacity: 0.8;
     position: absolute;
+    @media screen and (max-width: 800px) {
+      padding: 0 10px;
+      height: unset;
+      text-align: center;
+    }
 
     .title {
       font-weight: bold;
